@@ -1,0 +1,175 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Extra extra small phone screen size */
+@media screen and (max-width:373px){
+    .random{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   height: 100vh;
+    }
+    .cont{
+    background-color: white;
+    box-shadow: -9px -9px 15px rgba(225, 225, 225, 0.1), -9px 9px 15px rgba(0, 0, 0, 0.2) ;
+    width: 100%;
+    max-width: 80%;
+    padding: 50px 30px;
+    text-align: center;
+    }
+    h2{
+    text-transform:uppercase;
+    font-size: 10px;
+    }
+    #generateBtn{
+    margin-top: 40px;
+   color: white;
+   background-color: green;
+   border: none;
+   padding: 12px 10px;
+    }
+    #numberDisplay{
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+    display: none;
+    }
+    .num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+
+
+/* small screen size (phone) */
+@media(min-width:374px) and (max-width:767px){
+    .random{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   height: 100vh;
+    }
+    .cont{
+    background-color: white;
+    box-shadow: -9px -9px 15px rgba(225, 225, 225, 0.1), -9px 9px 15px rgba(0, 0, 0, 0.2) ;
+    width: 100%;
+    max-width: 80%;
+    padding: 50px 30px;
+    text-align: center;
+    }
+    h2{
+    text-transform:uppercase;
+    font-size: 15px;
+    }
+    #generateBtn{
+    margin-top: 40px;
+   color: white;
+   background-color: green;
+   border: none;
+   padding: 12px 42px;
+    }
+    #numberDisplay{
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+    display: none;
+    }
+      .num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+
+@media(min-width:767px) and (max-width:1075px){
+    .random{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   height: 100vh;
+    }
+    .cont{
+    background-color: white;
+    box-shadow: -9px -9px 15px rgba(225, 225, 225, 0.1), -9px 9px 15px rgba(0, 0, 0, 0.2) ;
+    width: 100%;
+    max-width: 80%;
+    padding: 50px 30px;
+    text-align: center;
+    }
+    h2{
+    text-transform:uppercase;
+    font-size: 17px;
+    }
+    #generateBtn{
+    margin-top: 40px;
+   color: white;
+   background-color: green;
+   border: none;
+   padding: 12px 59px;
+    }
+    #numberDisplay{
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+    display: none;
+    }
+    .num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+
+@media(min-width:1076px) {
+    .random{
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   height: 100vh;
+    }
+    .cont{
+    background-color: white;
+    box-shadow: -9px -9px 15px rgba(225, 225, 225, 0.1), -9px 9px 15px rgba(0, 0, 0, 0.2) ;
+    width: 100%;
+    max-width: 80%;
+    padding: 50px 30px;
+    text-align: center;
+    }
+    h2{
+    text-transform:uppercase;
+    font-size: 15px;
+    }
+    #generateBtn{
+    margin-top: 40px;
+   color: white;
+   background-color: green;
+   border: none;
+   padding: 12px 42px;
+    }
+    #numberDisplay{
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+    display: none;
+    }
+    .num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
